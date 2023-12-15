@@ -6,7 +6,7 @@ data "aws_iam_policy_document" "sgc_organization_assume_role_policy" {
 
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::082241233635:root"]
+      identifiers = ["arn:aws:iam::123456789012:root"]
     }
 
     actions = ["sts:AssumeRole"]
