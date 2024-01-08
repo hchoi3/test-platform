@@ -12,3 +12,4 @@ data "aws_iam_policy_document" "sgc_organization_assume_role_policy" {
     actions = ["sts:AssumeRole"]
   }
 }
+#trigger snyk
